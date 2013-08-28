@@ -1,0 +1,51 @@
+h1 {
+  text-align: center;
+}
+
+#container {
+  margin: auto;
+  width: 300px;
+}
+
+.tower-container {
+  width: 100px;
+  float: left;
+  position: relative;
+}
+
+.tower {
+  margin: auto;
+  width: 30px;
+  height: 200px;
+  background-color: black;
+}
+
+.ring {
+  height: 15px;
+}
+
+#small-ring {
+  margin-left: -10px;
+  bottom: 30px;
+  width: 50px;
+  background-color: red;
+  position: absolute;
+}
+
+#medium-ring {
+  margin-left: -20px;
+  bottom: 15px;
+  width: 70px;
+  background-color: green;
+  position: absolute;
+}
+
+#large-ring {
+  margin-left: -30px;
+  bottom: 0px;
+  width: 90px;
+  background-color: blue;
+  position: absolute;
+}
+
+
